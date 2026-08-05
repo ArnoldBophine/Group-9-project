@@ -26,7 +26,7 @@ For this project, our group developed a Global Public Health Intelligence Dashbo
 
 The goal is to support better decision-making by providing clear and interactive insights into global public health.
 
-##Project Objectives
+## Project Objectives
 
 The dashboard was created to answer the following questions:
 
@@ -37,7 +37,7 @@ How does healthcare access affect recovery?
 Which countries may require more healthcare resources?
 What factors contribute most to disease burden?
 
-##Power Query Transformations
+## Power Query Transformations
 
 The dataset was cleaned and prepared using Power Query before building the dashboard.
 
@@ -59,3 +59,36 @@ Demographics
 Building a Star Schema data model to improve performance
 
 These transformations improved the quality, consistency, and reliability of the data used for analysis.
+## Data Model
+
+The dashboard follows a Star Schema, which is commonly used in Business Intelligence because it improves performance and simplifies data analysis.
+
+Fact Table
+Fact_HealthRecords
+Dimension Tables
+Dim_Date
+Dim_Country
+Dim_Disease
+Dim_Treatment
+Dim_Demographics
+
+The fact table stores the health records, while the dimension tables provide descriptive information that allows users to filter and analyze the data from different perspectives.
+
+## DAX Measures Created
+
+Several DAX measures were created to support calculations and interactive analysis within the dashboard.
+
+These include:
+
+Total Cases
+Average Mortality Rate
+Average Recovery Rate
+Total Treatment Cost
+Total Population Affected
+Average Healthcare Access
+Dynamic Dashboard Title
+Recovery Rate Status
+Cost Category
+High Risk Indicator
+
+These measures update automatically based on the filters selected by the user.

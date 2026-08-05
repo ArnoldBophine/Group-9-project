@@ -22,6 +22,7 @@ Platform: Kaggle
 
 Dataset URL:
 https://www.kaggle.com/datasets/malaiarasugraj/global-health-statistics?resource=download
+<img width="1600" height="892" alt="image" src="https://github.com/user-attachments/assets/7448b89c-4a4f-402b-b743-6474e56ac34a" />
 
 ## Dataset Description
 
@@ -73,20 +74,31 @@ The main transformations included:
 - Correcting data types
 
 - Creating calculated columns where necessary
+<img width="1600" height="902" alt="WhatsApp Image 2026-08-05 at 6 29 26 PM" src="https://github.com/user-attachments/assets/5fe7b38a-e188-4672-aaa9-089867eb4c61" />
+
 
 Creating dimension tables for:
 
 - Date
+<img width="1600" height="899" alt="WhatsApp Image 2026-08-05 at 6 31 55 PM" src="https://github.com/user-attachments/assets/0ecc563f-397f-4252-b481-b9ac95e47967" />
 
 - Country
+  <img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/30b87197-7700-45c8-9b6a-aef702881f4e" />
 
-Disease
+
+- Disease
+<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/8498978e-c2a9-4679-97c2-ad5e1033c9ea" />
+
 
 - Treatment
+<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/fff1438a-9e75-4f67-9cde-ada757e235ba" />
+
 
 - Demographics
+<img width="1600" height="898" alt="image" src="https://github.com/user-attachments/assets/dd66cc85-6d22-409f-bdf7-f9cf995ae25f" />
 
 Building a Star Schema data model to improve performance
+<img width="1600" height="898" alt="image" src="https://github.com/user-attachments/assets/f84ba535-c4c7-4bd6-9da7-56ab22442312" />
 
 These transformations improved the quality, consistency, and reliability of the data used for analysis.
 ## Data Model
@@ -108,6 +120,7 @@ Dim_Disease
 Dim_Treatment
 
 Dim_Demographics
+<img width="1600" height="905" alt="image" src="https://github.com/user-attachments/assets/99fdea7b-8a35-4919-8944-bca1caaeb997" />
 
 The fact table stores the health records, while the dimension tables provide descriptive information that allows users to filter and analyze the data from different perspectives.
 
@@ -138,6 +151,7 @@ Cost Category
 High Risk Indicator
 
 These measures update automatically based on the filters selected by the user.
+<img width="1600" height="901" alt="image" src="https://github.com/user-attachments/assets/25cabd6e-1270-4785-928e-ff54b0fbe007" />
 
 ## Dashboard Pages
 ## Executive Summary

@@ -20,11 +20,13 @@ The Global Health Statistics dataset contains health-related information collect
 The dataset provides valuable insights into global health trends and helps identify patterns that can support better healthcare planning and decision-making.
 
 ## Business Problem
-Public health organizations collect large amounts of health data every year, but making sense of this information can be difficult without the right tools. Decision-makers need a way to quickly identify disease trends, compare countries, monitor healthcare performance, and understand where resources are needed most.
+Public health organizations collect large amounts of health data every year, but turning this data into meaningful insights can be challenging without the right analytical tools. Decision-makers need a reliable way to identify disease trends, compare healthcare performance across countries, monitor mortality and recovery rates, and understand where healthcare resources are needed most.
 
-For this project, our group developed a Global Public Health Intelligence Dashboard using Power BI. The dashboard transforms raw health data into interactive visualizations that help users analyze disease cases, mortality rates, healthcare access, treatment costs, and recovery outcomes across different countries from 2000 to 2024.
+For this project, our group developed a Global Public Health Intelligence Dashboard using Microsoft Power BI. The dashboard transforms raw health data into interactive visualizations that allow users to explore disease cases, mortality rates, recovery outcomes, healthcare access, treatment costs, and other key public health indicators across different countries between 2000 and 2024.
 
-The goal is to support better decision-making by providing clear and interactive insights into global public health.
+Using interactive filters, drill-through analysis, maps, and other Business Intelligence features, the dashboard enables users to identify patterns, compare countries, and gain deeper insights into global health trends.
+
+The goal of this project is to support evidence-based decision-making by presenting complex health data in a clear, interactive, and easy-to-understand format that can assist healthcare organizations, policymakers, and researchers in planning and allocating healthcare resources more effectively.
 
 ## Project Objectives
 
@@ -164,13 +166,29 @@ This page compares public health indicators across different countries and regio
 
 Visuals Used
 Filled Map (Disease Burden by Country)
+
 Treemap (Disease Cases by Category and Disease)
+
 Scatter Plot (Healthcare Access vs Per Capita Income)
+
 Purpose
 
 It enables users to identify countries with the highest disease burden, compare healthcare access, and understand regional health inequalities.
 
 ## Detailed Analysis 
+The Detailed Analysis page provides users with an interactive drill-through experience that allows them to explore health records at a more detailed level for individual countries and diseases.
+
+Visuals Used
+Drill-through Table (Disease Records)
+
+Decomposition Tree (Factors Influencing Disease Burden)
+
+Back Navigation Button
+
+Custom Report Tooltip
+Purpose
+
+Enables users to investigate specific countries and diseases, identify the factors contributing to disease burden, and gain additional context through drill-through and tooltip interactions.
 
 ## Key Insights
 The dashboard provides several important insights into global public health.
@@ -209,4 +227,16 @@ Improve access to quality healthcare services in underserved regions.
 
 Continue using data-driven dashboards to monitor disease trends and support evidence-based decision-making.
 
+## Storytelling
 
+The dashboard follows a logical flow that allows users to move from a broad overview of global health to more detailed analysis.
+
+The Executive Summary introduces the overall health situation through KPIs and summary charts, giving decision-makers a quick understanding of disease burden, mortality, recovery, and treatment costs.
+
+The Trend Analysis then explores how disease cases and health outcomes have changed between 2000 and 2024, helping users identify long-term trends and changes in disease rankings.
+
+The Geographic Analysis shifts the focus to regional comparisons by showing how disease burden, healthcare access, and economic factors vary across countries. These visuals make it easier to identify health inequalities and regions that may require additional healthcare investment.
+
+Finally, the Detailed Analysis allows users to drill down into individual countries and diseases. Through the decomposition tree and detailed records, users can investigate the factors influencing disease burden and make more informed decisions based on specific health indicators.
+
+Together, the dashboard transforms complex health data into meaningful insights that support evidence-based public health planning and resource allocation.

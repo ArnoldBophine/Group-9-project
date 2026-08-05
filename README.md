@@ -31,10 +31,15 @@ The goal is to support better decision-making by providing clear and interactive
 The dashboard was created to answer the following questions:
 
 Which diseases affect the largest number of people?
+
 Which countries have the highest mortality rates?
+
 How have disease cases changed over time?
+
 How does healthcare access affect recovery?
+
 Which countries may require more healthcare resources?
+
 What factors contribute most to disease burden?
 
 ## Power Query Transformations
@@ -44,18 +49,31 @@ The dataset was cleaned and prepared using Power Query before building the dashb
 The main transformations included:
 
 Removing duplicate records
+
 Handling missing and invalid values
+
 Renaming columns for consistency
+
 Standardizing text values
+
 Trimming unnecessary spaces
+
 Correcting data types
+
 Creating calculated columns where necessary
+
 Creating dimension tables for:
+
 Date
+
 Country
+
 Disease
+
 Treatment
+
 Demographics
+
 Building a Star Schema data model to improve performance
 
 These transformations improved the quality, consistency, and reliability of the data used for analysis.
@@ -64,12 +82,19 @@ These transformations improved the quality, consistency, and reliability of the 
 The dashboard follows a Star Schema, which is commonly used in Business Intelligence because it improves performance and simplifies data analysis.
 
 Fact Table
+
 Fact_HealthRecords
+
 Dimension Tables
+
 Dim_Date
+
 Dim_Country
+
 Dim_Disease
+
 Dim_Treatment
+
 Dim_Demographics
 
 The fact table stores the health records, while the dimension tables provide descriptive information that allows users to filter and analyze the data from different perspectives.
@@ -81,14 +106,23 @@ Several DAX measures were created to support calculations and interactive analys
 These include:
 
 Total Cases
+
 Average Mortality Rate
+
 Average Recovery Rate
+
 Total Treatment Cost
+
 Total Population Affected
+
 Average Healthcare Access
+
 Dynamic Dashboard Title
+
 Recovery Rate Status
+
 Cost Category
+
 High Risk Indicator
 
 These measures update automatically based on the filters selected by the user.

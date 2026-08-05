@@ -5,7 +5,7 @@ Susan Otieno - 670501
 
 Lavender Achieng' - 671809
 
-Movine Randing - 670351
+Movine ouma rading - 670351
 
 Arnold Bophine - 668821
 
@@ -144,7 +144,7 @@ Average Healthcare Access
 
 Dynamic Dashboard Title
 
-Recovery Rate Status
+Recovery rate status
 
 Cost Category
 

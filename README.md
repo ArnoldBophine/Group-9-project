@@ -1,6 +1,6 @@
 # Global Public Health Intelligence Dashboard
 
-# Group Members
+## Group Members
 Susan Otieno - 670501
 
 
@@ -32,17 +32,17 @@ The goal of this project is to support evidence-based decision-making by present
 
 The dashboard was created to answer the following questions:
 
-Which diseases affect the largest number of people?
+- Which diseases affect the largest number of people?
 
-Which countries have the highest mortality rates?
+- Which countries have the highest mortality rates?
 
-How have disease cases changed over time?
+- How have disease cases changed over time?
 
-How does healthcare access affect recovery?
+- How does healthcare access affect recovery?
 
-Which countries may require more healthcare resources?
+- Which countries may require more healthcare resources?
 
-What factors contribute most to disease burden?
+- What factors contribute most to disease burden?
 
 ## Power Query Transformations
 
@@ -50,31 +50,31 @@ The dataset was cleaned and prepared using Power Query before building the dashb
 
 The main transformations included:
 
-Removing duplicate records
+- Removing duplicate records
 
-Handling missing and invalid values
+- Handling missing and invalid values
 
-Renaming columns for consistency
+- Renaming columns for consistency
 
-Standardizing text values
+- Standardizing text values
 
-Trimming unnecessary spaces
+- Trimming unnecessary spaces
 
-Correcting data types
+- Correcting data types
 
-Creating calculated columns where necessary
+- Creating calculated columns where necessary
 
 Creating dimension tables for:
 
-Date
+- Date
 
-Country
+- Country
 
 Disease
 
-Treatment
+- Treatment
 
-Demographics
+- Demographics
 
 Building a Star Schema data model to improve performance
 

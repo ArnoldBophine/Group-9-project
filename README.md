@@ -130,17 +130,16 @@ These measures update automatically based on the filters selected by the user.
 ## Dashboard Pages
 ## Executive Summary
 
-The Executive Summary provides a quick overview of the overall public health situation using key performance indicators and summary charts.
-
+The Executive Summary provides a high-level overview of global public health performance through key performance indicators (KPIs) and summary visualizations. It allows users to quickly assess disease burden, treatment costs, mortality, and recovery rates before exploring the dashboard in more detail.
 Visuals Used;
 
-KPI Cards
+KPI Cards (Total Cases, Average Mortality Rate, Average Recovery Rate, Total Treatment Cost)
 
-Clustered Bar Chart
+Clustered Bar Chart (Disease Cases by Category)
 
-Line Chart
+Line Chart (Total Disease Cases Over Time)
 
-Interactive Slicers
+Interactive Slicers (Country, Disease Category, and Year)
 
 Purpose
 
@@ -148,12 +147,13 @@ This page allows decision-makers to quickly understand the overall disease burde
 
 ## Trend Analysis
 
-This page focuses on how disease cases and health outcomes have changed over time.
+The Trend Analysis page examines changes in disease burden and health outcomes over time. It enables users to identify long-term trends, compare mortality and recovery rates, and observe how disease categories have changed throughout the years.
 
-Visuals Used
-Multi-Line Chart
-Ribbon Chart
-Matrix with Conditional Formatting
+Line Chart (Mortality vs Recovery Rate Trends)
+
+Ribbon Chart (Disease Category Ranking Over Time)
+
+Matrix (Country Mortality Rate by Year with Conditional Formatting)
 Purpose
 
 It helps users identify long-term disease trends, compare mortality and recovery rates over the years, and observe changes in disease rankings.
@@ -163,16 +163,14 @@ It helps users identify long-term disease trends, compare mortality and recovery
 This page compares public health indicators across different countries and regions.
 
 Visuals Used
-Filled Map
-Treemap
-Scatter Plot
+Filled Map (Disease Burden by Country)
+Treemap (Disease Cases by Category and Disease)
+Scatter Plot (Healthcare Access vs Per Capita Income)
 Purpose
 
 It enables users to identify countries with the highest disease burden, compare healthcare access, and understand regional health inequalities.
 
-## Drill-through Detail
-
-## Toolpit
+## Detailed Analysis 
 
 ## Key Insights
 The dashboard provides several important insights into global public health.
@@ -210,3 +208,5 @@ Allocate healthcare resources based on disease burden and regional health needs.
 Improve access to quality healthcare services in underserved regions.
 
 Continue using data-driven dashboards to monitor disease trends and support evidence-based decision-making.
+
+

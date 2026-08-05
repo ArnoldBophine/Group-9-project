@@ -157,7 +157,7 @@ Purpose
 
 This page allows decision-makers to quickly understand the overall disease burden, mortality, recovery rates, and treatment costs before exploring the data in greater detail.
 
-!["C:\Users\angel\OneDrive\Pictures\Screenshots\Screenshot 2026-08-05 154211.png"](https://)
+![alt text](<Screenshot 2026-08-05 154211.png>)
 
 ## Trend Analysis
 
@@ -172,7 +172,7 @@ Purpose
 
 It helps users identify long-term disease trends, compare mortality and recovery rates over the years, and observe changes in disease rankings.
 
-!["C:\Users\angel\OneDrive\Pictures\Screenshots\Screenshot 2026-08-05 154507.png"](https://) 
+![alt text](<Screenshot 2026-08-05 154507.png>) 
 
 ## Geographic Analysis
 
@@ -189,7 +189,7 @@ Purpose
 
 It enables users to identify countries with the highest disease burden, compare healthcare access, and understand regional health inequalities.
 
-!["C:\Users\angel\OneDrive\Pictures\Screenshots\Screenshot 2026-08-05 154624.png"](https://) 
+![alt text](<Screenshot 2026-08-05 154624.png>)
 
 ## Detailed Analysis 
 The Detailed Analysis page provides users with an interactive drill-through experience that allows them to explore health records at a more detailed level for individual countries and diseases.
@@ -206,7 +206,7 @@ Purpose
 
 Enables users to investigate specific countries and diseases, identify the factors contributing to disease burden, and gain additional context through drill-through and tooltip interactions.
 
-!["C:\Users\angel\OneDrive\Pictures\Screenshots\Screenshot 2026-08-05 154724.png"](https://) 
+![alt text](<Screenshot 2026-08-05 154724.png>)
 
 ## Key Insights
 The dashboard provides several important insights into global public health.

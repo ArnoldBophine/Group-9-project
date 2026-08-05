@@ -2,6 +2,11 @@
 
 ## Group Members
 Susan Otieno - 670501
+Lavender Achieng' - 671809
+Movine Randing - 670351
+Arnold Bophine - 668821
+Angela Mwanzia - 663887
+Reana Auma - 669255
 
 
 ## Dataset Source

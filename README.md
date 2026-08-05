@@ -128,15 +128,85 @@ High Risk Indicator
 These measures update automatically based on the filters selected by the user.
 
 ## Dashboard Pages
-Executive Summary
+## Executive Summary
 
 The Executive Summary provides a quick overview of the overall public health situation using key performance indicators and summary charts.
 
-Visuals Used
+Visuals Used;
+
 KPI Cards
+
 Clustered Bar Chart
+
 Line Chart
+
 Interactive Slicers
+
 Purpose
 
 This page allows decision-makers to quickly understand the overall disease burden, mortality, recovery rates, and treatment costs before exploring the data in greater detail.
+
+## Trend Analysis
+
+This page focuses on how disease cases and health outcomes have changed over time.
+
+Visuals Used
+Multi-Line Chart
+Ribbon Chart
+Matrix with Conditional Formatting
+Purpose
+
+It helps users identify long-term disease trends, compare mortality and recovery rates over the years, and observe changes in disease rankings.
+
+## Geographic Analysis
+
+This page compares public health indicators across different countries and regions.
+
+Visuals Used
+Filled Map
+Treemap
+Scatter Plot
+Purpose
+
+It enables users to identify countries with the highest disease burden, compare healthcare access, and understand regional health inequalities.
+
+## Drill-through Detail
+
+## Toolpit
+
+## Key Insights
+The dashboard provides several important insights into global public health.
+
+1. Disease burden varies significantly across countries.
+
+Some countries consistently report higher disease cases than others, indicating the need for targeted healthcare interventions and better resource allocation.
+
+2. Healthcare access has a positive impact on recovery rates.
+
+Countries with higher healthcare access generally achieve better recovery outcomes, highlighting the importance of investing in healthcare infrastructure.
+
+3. Mortality rates differ even among countries with similar disease prevalence.
+
+This suggests that healthcare quality, early diagnosis, and access to treatment play an important role in reducing deaths.
+
+4. Disease trends have changed over time.
+
+Trend analysis shows that while some diseases have remained stable, others have increased over the years, emphasizing the importance of continuous monitoring.
+
+5. High treatment costs do not always lead to lower disease burden.
+
+Some countries continue to experience high disease prevalence despite increased treatment spending, suggesting that preventive healthcare strategies should receive greater attention.
+
+## Recommendations
+
+Based on the dashboard findings, we recommend the following:
+
+Increase investment in healthcare infrastructure in countries with high disease burden.
+
+Strengthen preventive healthcare programs such as vaccination, awareness campaigns, and early disease screening.
+
+Allocate healthcare resources based on disease burden and regional health needs.
+
+Improve access to quality healthcare services in underserved regions.
+
+Continue using data-driven dashboards to monitor disease trends and support evidence-based decision-making.

@@ -126,3 +126,17 @@ Cost Category
 High Risk Indicator
 
 These measures update automatically based on the filters selected by the user.
+
+## Dashboard Pages
+Executive Summary
+
+The Executive Summary provides a quick overview of the overall public health situation using key performance indicators and summary charts.
+
+Visuals Used
+KPI Cards
+Clustered Bar Chart
+Line Chart
+Interactive Slicers
+Purpose
+
+This page allows decision-makers to quickly understand the overall disease burden, mortality, recovery rates, and treatment costs before exploring the data in greater detail.
